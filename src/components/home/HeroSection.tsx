@@ -64,7 +64,7 @@ export function HeroSection() {
       <div className="max-w-[1280px] mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
 
         {/* Text */}
-        <div className="lg:col-span-6 flex flex-col gap-6 z-10">
+        <div className="lg:col-span-6 flex flex-col gap-6 z-10 items-center lg:items-start text-center lg:text-left">
           <div className="animate-fade-up inline-flex items-center gap-2 border border-white/20 text-white/60 text-xs font-sans font-semibold uppercase tracking-widest px-3 py-1.5 rounded-full w-fit">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 pulse-dot" />
             Centro de Estudiantes · FIEE · UNI
@@ -80,7 +80,7 @@ export function HeroSection() {
             El CEFIEE es el órgano representativo de los estudiantes de la FIEE. Gestionamos recursos, oportunidades y espacios para toda la comunidad universitaria.
           </p>
 
-          <div className="animate-fade-up animate-delay-300 flex flex-wrap gap-3">
+          <div className="animate-fade-up animate-delay-300 flex flex-wrap gap-3 justify-center lg:justify-start">
             <Link
               href="/oportunidades"
               className="flex items-center gap-2 font-sans font-semibold text-sm text-navy-950 px-6 py-3 rounded-[6px] transition-all hover:brightness-105 active:scale-95"

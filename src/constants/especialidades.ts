@@ -21,7 +21,7 @@ export const ESPECIALIDADES: Especialidad[] = [
   },
   {
     id: "telecom",
-    nombre: "Telecomunicaciones",
+    nombre: "Ingeniería de Telecomunicaciones",
     sigla: "EP-TC",
     icon: "settings_input_antenna",
     color: "#7F1D1D",
@@ -30,7 +30,7 @@ export const ESPECIALIDADES: Especialidad[] = [
   },
   {
     id: "ciberseguridad",
-    nombre: "Ciberseguridad",
+    nombre: "Ingeniería de Ciberseguridad",
     sigla: "EP-CS",
     icon: "lock",
     color: "#064E3B",
