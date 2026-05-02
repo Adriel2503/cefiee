@@ -1,0 +1,40 @@
+import type { Evento } from "@/types";
+
+export const EVENTOS: Evento[] = [
+  {
+    titulo: "Semana de la Ingeniería Eléctrica 2026",
+    descripcion: "Charlas magistrales, visitas a plantas industriales y feria de proyectos de automatización y control.",
+    dia: "15",
+    mes: "Abr",
+    lugar: "Auditorio FIEE",
+    tipo: "Conferencia",
+    escuela: "Eléctrica",
+    color: "#92400E",
+    bg: "#FEF3CD",
+    icon: "bolt",
+  },
+  {
+    titulo: "HackFIEE 2026: Sistemas Críticos",
+    descripcion: "Competencia de ciberseguridad y hacking ético en infraestructura crítica. Premio de S/. 3,000 al ganador.",
+    dia: "03",
+    mes: "May",
+    lugar: "Lab. Cómputo FIEE",
+    tipo: "Hackathon",
+    escuela: "Ciberseguridad",
+    color: "#064E3B",
+    bg: "#ECFDF5",
+    icon: "lock",
+  },
+  {
+    titulo: "Taller: Antenas y Propagación 5G",
+    descripcion: "Diseño y simulación de antenas para comunicaciones móviles 5G con software HFSS. Cupos limitados.",
+    dia: "20",
+    mes: "May",
+    lugar: "Lab. Telecomunicaciones",
+    tipo: "Taller",
+    escuela: "Telecomunicaciones",
+    color: "#7F1D1D",
+    bg: "#FEF2F2",
+    icon: "settings_input_antenna",
+  },
+];
